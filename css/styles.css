@@ -164,6 +164,7 @@ color: #fff;
 
 
 .main-link-outline {
+  border: 2px solid #fff;
   border-color: #fff;
   background-color: transparent;
   color: #fff;
