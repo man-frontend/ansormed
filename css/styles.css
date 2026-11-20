@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   padding: 0;
   margin: 0;
@@ -132,10 +138,12 @@ color: #fff;
   text-transform: uppercase;
 }
 
+
 .main-link:hover {
   background-color: #fff;
   color: #de2e54;
 }
+
 
 .main-link:active {
   background-color: #de2e54;
@@ -152,6 +160,20 @@ color: #fff;
 .main-link-solid:active {
   background-color: rgba(222, 46, 84, 0.6);
   opacity: 1;
+}
+
+
+.main-link-outline {
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+
+.main-link-outline:hover {
+  border-color: transparent;
+  background-color: #de2e54;
+  color: #fff;
 }
 
 
@@ -255,6 +277,36 @@ align-self: flex-end;
 .index-services-actions {
   display: flex;
   justify-content: center;
+}
+
+
+/* CTA */
+.cta {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #0eb4c1;
+  color: #fff;
+}
+
+.cta-heading {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", "sans-serif";
+  text-align: center;
+}
+
+
+.cta-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cta-links-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 /* SITE-FOOTER */
